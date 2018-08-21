@@ -272,9 +272,9 @@
      * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
      */
 
+    exports.DynamicFormComponent = DynamicFormComponent;
     exports.FormGeneratorModule = FormGeneratorModule;
-    exports.ɵb = DynamicFieldDirective;
-    exports.ɵa = DynamicFormComponent;
+    exports.ɵa = DynamicFieldDirective;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
