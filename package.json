@@ -1,0 +1,21 @@
+{
+  "name": "form-generator",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "main": "bundles/form-generator.umd.js",
+  "module": "fesm5/form-generator.js",
+  "es2015": "fesm2015/form-generator.js",
+  "esm5": "esm5/form-generator.js",
+  "esm2015": "esm2015/form-generator.js",
+  "fesm5": "fesm5/form-generator.js",
+  "fesm2015": "fesm2015/form-generator.js",
+  "typings": "form-generator.d.ts",
+  "metadata": "form-generator.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
