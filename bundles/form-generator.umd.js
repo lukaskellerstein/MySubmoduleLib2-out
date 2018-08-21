@@ -273,8 +273,8 @@
      */
 
     exports.DynamicFormComponent = DynamicFormComponent;
+    exports.DynamicFieldDirective = DynamicFieldDirective;
     exports.FormGeneratorModule = FormGeneratorModule;
-    exports.ɵa = DynamicFieldDirective;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
