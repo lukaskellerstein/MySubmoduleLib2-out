@@ -4,10 +4,10 @@ import { Observable } from 'rxjs';
 import { FieldConfig } from '../dynamic-field/widgets/base/field.config';
 export declare class DynamicFormComponent implements OnChanges, OnInit {
     private fb;
-    config: FieldConfig[];
+    config: {};
     submit: EventEmitter<any>;
     form: FormGroup;
-    readonly controls: FieldConfig[];
+    readonly controls: any[];
     readonly changes: Observable<any>;
     readonly valid: boolean;
     readonly value: any;
