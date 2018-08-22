@@ -365,11 +365,11 @@
 
     exports.DynamicFormComponent = DynamicFormComponent;
     exports.DynamicFieldDirective = DynamicFieldDirective;
+    exports.MyButtonComponent = MyButtonComponent;
+    exports.MyInputComponent = MyInputComponent;
+    exports.MySelectComponent = MySelectComponent;
+    exports.ObjectLinkComponent = ObjectLinkComponent;
     exports.FormGeneratorModule = FormGeneratorModule;
-    exports.ɵc = MyButtonComponent;
-    exports.ɵb = MyInputComponent;
-    exports.ɵd = MySelectComponent;
-    exports.ɵe = ObjectLinkComponent;
     exports.ɵa = WidgetsModule;
 
     Object.defineProperty(exports, '__esModule', { value: true });
