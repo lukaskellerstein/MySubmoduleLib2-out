@@ -6,9 +6,11 @@ export declare class DynamicFieldDirective implements Field, OnChanges, OnInit {
     private resolver;
     private container;
     config: FieldConfig;
+    name: string;
     group: FormGroup;
     component: ComponentRef<Field>;
     constructor(resolver: ComponentFactoryResolver, container: ViewContainerRef);
     ngOnChanges(): void;
     ngOnInit(): void;
+    buildFieldConfig(config: any): any;
 }
