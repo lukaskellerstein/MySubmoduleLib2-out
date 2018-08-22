@@ -11,6 +11,7 @@ export declare class DynamicFormComponent implements OnChanges, OnInit {
     readonly changes: Observable<any>;
     readonly valid: boolean;
     readonly value: any;
+    objectGetKeys: (o: {}) => string[];
     constructor(fb: FormBuilder);
     ngOnInit(): void;
     ngOnChanges(): void;
