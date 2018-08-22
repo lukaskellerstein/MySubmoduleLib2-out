@@ -1,7 +1,7 @@
 import { OnInit, OnChanges, EventEmitter } from '@angular/core';
 import { FormGroup, FormBuilder, FormControl } from '@angular/forms';
-import { FieldConfig } from 'MySubmoduleLib1';
 import { Observable } from 'rxjs';
+import { FieldConfig } from '../dynamic-field/widgets/base/field.config';
 export declare class DynamicFormComponent implements OnChanges, OnInit {
     private fb;
     config: FieldConfig[];

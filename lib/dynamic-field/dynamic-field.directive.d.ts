@@ -1,6 +1,7 @@
 import { ComponentFactoryResolver, ComponentRef, OnChanges, OnInit, ViewContainerRef } from '@angular/core';
 import { FormGroup } from '@angular/forms';
-import { Field, FieldConfig } from 'MySubmoduleLib1';
+import { Field } from './widgets/base/field';
+import { FieldConfig } from './widgets/base/field.config';
 export declare class DynamicFieldDirective implements Field, OnChanges, OnInit {
     private resolver;
     private container;
